@@ -2,7 +2,7 @@
 #include <vector>
 
 using namespace std;
-
+// Prefer method, No extra space
 template <class T>
 void perm(vector<T>& m, int l, int h) {
     if (l == h) {
